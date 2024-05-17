@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    transition: all ease-in-out 500ms;
+    background:rgb(240, 240, 240);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    transition: all ease-in-out 500ms;
+    background:rgb(240, 240, 240);
+}
+
+header{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    transition: all ease-in-out 400ms;
+    transform: skew(-15deg);
+}
+h1{
+    padding: 20px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgb(14, 14, 14), 2px 2px 20px rgb(192, 44, 44);
+    background: -webkit-linear-gradient(bottom, black, rgb(200, 05, 20));
+    width: max-content;
+    height: fit-content;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: all ease-in-out 400ms;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span.highlight{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section, footer{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+    margin: 10px;
+}
+
+section p{
+    margin: 8px;
+    font-weight: bolder;
+    transition: all ease-in-out 400ms;
+    font-size: 18px;
+    margin: 20px;
+}
+
+section a{
+    padding: 10px;
+    background-color: rgb(14, 14, 14);
+    margin-top: -20px;
+    margin: 4px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all ease-in-out 500ms;
+}
+
+section a:hover{
+    padding: 10px;
+    background-color: rgb(51, 33, 33);
+    margin-top: -20px;
+    margin:10px;
+    border-radius: 10px;
+    color: white;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align:sub;
+    padding: 30px;
+    transition: all ease-in-out 400ms;
+}
+footer p{
+    font-weight: bold;
+    font-size: 15px;
+    transition: all ease-in-out 400ms;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer a{
+    transition: all ease-in-out 400ms;
+    color:rgb(175, 17, 17);
+}
+footer a:hover{
+    font-size: 20px;
+    font-weight: bolder;
+}

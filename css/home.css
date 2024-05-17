@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    transition: all ease-in-out 500ms;
+    background:rgb(240, 240, 240);
+}
+
+header{    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    transition: all ease-in-out 400ms;
+    transform: skew(-15deg);
+}
+h1{
+    padding: 20px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgb(14, 14, 14), 2px 2px 20px rgb(192, 44, 44);
+    background: -webkit-linear-gradient(bottom, black, rgb(200, 05, 20));
+    width: max-content;
+    height: fit-content;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: all ease-in-out 400ms;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span.highlight{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.score_count{
+    display: grid;
+    border: 2px solid rgb(167, 167, 167);
+    box-shadow: 0px 0px 4px rgb(68, 68, 68);
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(250, 250, 250);
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+}
+
+section div p{
+    text-align: center;
+    margin: 3px;
+}
+
+section div p.score_p{
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    border-bottom: 1px solid grey;
+}
+section, footer, div.control{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+    margin: 10px;
+}
+
+section p{
+    font-weight: bolder;
+    transition: all ease-in-out 400ms;
+    font-size: 18px;
+    margin: 15px;
+}
+
+
+section p.wel{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 29px;
+}
+section a, a.next, a.prev{
+    padding: 10px;
+    background-color: rgb(14, 14, 14);
+    margin-top: -20px;
+    margin: 4px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all ease-in-out 500ms;
+}
+
+section a:hover, section a:active{
+    padding: 10px;
+    background-color: rgb(51, 33, 33);
+    margin-top: -20px;
+    margin:10px;
+    border-radius: 10px;
+    color: white;
+}
+
+a.back, a.next, a.prev {
+    transition: all ease-in-out 500ms;
+    font-size: large;
+}
+
+a.back:hover, a.back:active, a.next:hover, a.prev:hover, a.next:active, a.prev:active {
+    cursor: default;
+    color: white;
+    font-size: larger;
+    background-color: rgb(170, 6, 6);
+}
+
+
+footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align:sub;
+    padding: 30px;
+    transition: all ease-in-out 400ms;
+}
+footer p{
+    font-weight: bold;
+    font-size: 15px;
+    transition: all ease-in-out 400ms;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer a{
+    transition: all ease-in-out 400ms;
+    color:rgb(175, 17, 17);
+}
+footer a:hover{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+div.control{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+    margin: 20px;
+    gap: 50px;
+}
+
+a.prev:hover, a.prev:active {
+    margin-left: -20px;
+}
+a.next:hover, a.next:active{
+    margin-right: -20px;
+}
+
+
+
+
+section p span.no{
+    margin: 4px;
+}
